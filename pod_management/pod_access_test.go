@@ -47,7 +47,7 @@ func TestPodAccessibility(t *testing.T) {
 
 	// Define the namespace and pod name
 	namespace := "default"
-	podName := "test-pod" // Replace with the actual pod name
+	podName := "my-pod" // Replace with the actual pod name
 
 	// Define a function to check pod accessibility
 	checkPodAccessibility := func() bool {

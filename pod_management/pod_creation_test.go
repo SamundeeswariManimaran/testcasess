@@ -49,8 +49,9 @@ func TestCreatePodWithImage(t *testing.T) {
 
 	// Define the namespace and pod configuration
 	namespace := "default"
-	podName := "test-pod"
+	podName := "demo-pod"
 	containerImage := "nginx:latest"
+	
 
 	// Create the pod configuration
 	pod := &v1.Pod{
